@@ -5,7 +5,7 @@ return [
         'redirect_url' => 'http://localhost:8000/mpi/result'
     ],
     'token' => [
-        'token_api_key' => 'cd76ca65-7f54-4dec-8ba3-11c12e36a548'
+        'token_api_key' => env('TOKEN_API_KEY'),
     ],
     'rakuten' => [
         'success_url' => 'http://localhost:8000/rakuten/result?result=SUCCESS',
